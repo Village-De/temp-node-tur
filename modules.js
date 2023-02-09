@@ -1,0 +1,8 @@
+const names = require('./names')
+console.log(names)
+const sayHi = require('./utils')
+const data = require('./alternative-f')
+require('./mind-grenade')
+sayHi('Susan')
+sayHi(names.john)
+sayHi(names.peter)
